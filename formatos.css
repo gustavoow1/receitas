@@ -1,0 +1,67 @@
+body{
+    background-color: salmon;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+
+.menu{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.menu a{
+    color: grey;
+    margin-right: 20px;
+}
+
+.menu a.ativo {
+    color: white;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 100px;
+}
+
+#welcome{
+    text-align: center;
+}
+
+.imglogo{
+    height: 100px;
+}
+
+.card{
+    background-color: #ffef0df3;
+    padding: 15px;
+}
+
+.card h1{
+    text-align: center;
+}
+
+#direitos{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+}
